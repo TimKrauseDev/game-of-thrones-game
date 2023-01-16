@@ -1,6 +1,7 @@
 # Game of Thrones Game
 
 ## Folder Structure
+```
 .
 ├── README.md
 ├── next-env.d.ts
@@ -31,12 +32,13 @@
 │   │   ├── auth
 │   │   │   ├── api
 │   │   │   ├── components
-    │   │   └── auth.js
+│   │   │   └── auth.js
 │   │   └── utils
 │   ├── assets // global static assets such as images, svgs, company logo, etc.
 │   │   ├── images
-    │   └── svgs
+│   │   └── svgs
 │   └── styles // global styles
 │       ├── Home.module.css
 │       └── globals.css
 └── tsconfig.json
+```
