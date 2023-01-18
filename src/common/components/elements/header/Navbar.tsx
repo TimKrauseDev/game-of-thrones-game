@@ -8,7 +8,7 @@ import NavbarItem from "./NavbarItem";
 function Navbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
     return (
-        <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-700 mb-3">
+        <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-700">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <Link
@@ -31,7 +31,7 @@ function Navbar() {
                         (navbarOpen ? " flex" : " hidden")
                     }
                 >
-                    <ul className="flex space-x-4 flex-col lg:flex-row list-none lg:ml-auto">
+                    <ul className="flex space-y-4 lg:space-y-0 lg:space-x-4 flex-col lg:flex-row list-none lg:ml-auto">
                         <NavbarItem name="Help" />
                         <NavbarItem name="Previous Winners" />
                     </ul>
