@@ -2,6 +2,11 @@ import '../styles/globals.css';
 import Header from '@common/components/elements/header/Header';
 import Footer from '@common/components/elements/footer/Footer';
 
+
+const layoutStyles = {
+    gridTemplateRows: 'min-content 1fr min-content'
+}
+
 export default function RootLayout({
     children,
 }: {
@@ -10,7 +15,7 @@ export default function RootLayout({
     return (
         <html>
             <head />
-            <body>
+            <body className="grid min-h-screen" style={layoutStyles}>
                 <Header />
                 {children}
                 <Footer />
