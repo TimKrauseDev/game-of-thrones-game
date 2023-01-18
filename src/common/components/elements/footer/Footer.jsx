@@ -1,12 +1,11 @@
-import Link from 'next/link'
 import React from 'react'
 
 function Footer() {
   return (
     <footer>
         <div className="px-2 py-3 bg-slate-700">
-            <div className="container px-4">
-                <div className="w-full">
+            <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+                <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <a
                         href="https://timkrause.dev"
                         target="_blank"
