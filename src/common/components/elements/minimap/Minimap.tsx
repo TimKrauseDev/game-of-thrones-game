@@ -53,7 +53,7 @@ function Minimap() {
     return (
         <div className="minimap space-y-2" ref={minimapRef} >
             <p className="font-bold">Minimap</p>
-            <canvas ref={canvasRef} width='193' height='277' className="" />
+            <canvas ref={canvasRef} className="" />
         </div>
     )
 }
