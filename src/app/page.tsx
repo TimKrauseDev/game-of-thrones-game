@@ -12,11 +12,11 @@ function App() {
                 <div className="p-4 border border-gray-600 lg:col-span-3">
                     <Dialog />
                 </div>
-                <div className="p-4 border border-gray-600 lg:col-span-6">
+                <div className="p-4 border border-gray-600 lg:col-span-6 space-y-6">
                     <Board />
                     <Statistics />
                 </div>
-                <div className="p-4 border border-gray-600 lg:col-span-3">
+                <div className="p-4 border border-gray-600 lg:col-span-3 space-y-6">
                     <Minimap />
                     <HeroList />
                 </div>
